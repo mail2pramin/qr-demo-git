@@ -64,7 +64,8 @@ public class QRUtility {
 				}
 			}
 		}
-		//build using jenkins
+
+
 		// Base64
 		ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
 		ImageIO.write(image, "png", outputStream);
