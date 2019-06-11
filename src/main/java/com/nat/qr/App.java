@@ -28,7 +28,7 @@ public class App
             String pp_acc_id = "";
             String pp_amount = "";
             String pp_chksum = "";
-			//jenkins test
+
             // process input_acc_id
             if(input_acc_id.length() == 15){ // truemoney e-wallet
                 pp_acc_id = "0315" + input_acc_id;
