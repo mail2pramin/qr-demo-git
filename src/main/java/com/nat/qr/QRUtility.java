@@ -65,7 +65,7 @@ public class QRUtility {
 			}
 		}
 		
-		// Base64
+		// Base64 bytes
 		ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
 		ImageIO.write(image, "png", outputStream);
 		//String imageString = "data:image/png;base64," + DatatypeConverter.printBase64Binary(outputStream.toByteArray());
